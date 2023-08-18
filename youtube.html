@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>YouTube.com Clone</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/video.css">
+  <link rel="stylesheet" href="styles/sidebar.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="left-section">
+      <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+      
+    </div>
+    <div class="middle-section">
+      <input class="search-bar" type="text" placeholder="Search">
+      <button class="search-button">
+        <img class="search-icon" src="icons/search.svg">
+        <div class="tooltip">Search</div>
+      </button>
+      <button class="voice-search-button">
+        <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+        <div class="tooltip">Search with your voice</div>
+      </button>
+      <!-- Put position absolute inside position relative -->
+    </div>
+    <div class="right-section">
+      <div class="upload-icon-container">
+        <img class="upload-icon" src="icons/upload.svg">
+        <div class="tooltip">Create</div>
+      </div>
+       
+      <div class="notifications-icon-container">
+        <img class="notifications-icon" src="icons/notifications.svg">
+        <div class="notifications-count">3</div>
+        <div class="tooltip">Notifications</div>
+      </div> 
+      <img class="current-user-picture" src="channel-pictures/my-channel.jpeg">
+    </div>
+  </header>
+  
+  <nav class="sidebar">
+    <div class="sidebar-link">
+      <img src="icons/home.svg">
+      <div>Home</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/explore.svg">
+      <div>Explore</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/subscriptions.svg">
+      <div>Subscriptions</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/originals.svg">
+      <div>Originals</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/library.svg">
+      <div>Library</div>
+    </div>
+  </nav>
+
+    <main>
+      <section class="video-grid">
+        <div class="video-preview">
+  
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+            <div class="video-time">14:20</div>
+            <!-- 1 -->
+          </div>
+    
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-1.jpeg">
+            </div>
+    
+            <div class="video-info">
+              <p class="video-title">
+                Talking Tech and AI with Google CEO Sundar Pichai!
+              </p>
+              <p class="video-author">
+                Marques Brownlee
+              </p>
+              <p class="video-stats">
+                3.4M views &#183; 6 months ago
+              </p>
+            </div>
+    
+    
+          </div>
+        </div>
+    
+    
+        <div class="video-preview">
+    
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/hq720.webp">
+            <div class="video-time">8:22</div>
+          </div>
+    
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channels4_profile.jpg">
+            </div>
+    
+            <div class="video-info">
+              <p class="video-title">
+                HOW I GOT 1ST IN A $375,000 DUOS TOURNEY </p>
+              <p class="video-author">
+                iiTzTimmy
+              </p>
+              <p class="video-stats">
+                197,407 views &#183; 3 days ago
+              </p>
+            </div>
+    
+    
+          </div>
+        </div>
+        <div class="video-preview">
+  
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/hq721.webp">
+            <div class="video-time">9:13</div>
+          </div>
+    
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channels5_profile.jpg">
+            </div>
+    
+            <div class="video-info">
+              <p class="video-title">
+                Hannity: There’s a cocaine scandal at the White House
+              </p>
+              <p class="video-author">
+                Fox News
+              </p>
+              <p class="video-stats">
+                95K views &#183; 3 hours ago
+              </p>
+            </div>
+    
+    
+          </div>
+        </div>
+    
+    
+        <div class="video-preview">
+    
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/hq722.webp">
+            <div class="video-time">22:09</div>
+          </div>
+    
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channels6_profile.jpg">
+            </div>
+    
+            <div class="video-info">
+              <p class="video-title">
+                CLUTCHING FOR 1ST PLACE IN ALGS SCRIMS... (Apex Legends) </p>
+              <p class="video-author">
+                TSM Reps
+              </p>
+              <p class="video-stats">
+                45K views &#183; 8 days ago
+              </p>
+            </div>
+    
+    
+          </div>
+        </div>
+        <div class="video-preview">
+  
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/hq723.webp">
+            <div class="video-time">11:17</div>
+          </div>
+    
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channels7_profile.jpg">
+            </div>
+    
+            <div class="video-info">
+              <p class="video-title">
+                The Map of Engineering
+              </p>
+              <p class="video-author">
+                Domain of Science
+              </p>
+              <p class="video-stats">
+                1.7M views &#183; 9 months ago
+              </p>
+            </div>
+    
+    
+          </div>
+        </div>
+    
+    
+        <div class="video-preview">
+    
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/hq724.webp">
+            <div class="video-time">19:59</div>
+          </div>
+    
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/unnamed.jpg">
+            </div>
+    
+            <div class="video-info">
+              <p class="video-title">
+                The Most Misunderstood Concept in Physics </p>
+              <p class="video-author">
+                Veritasium
+              </p>
+              <p class="video-stats">
+                5.8M views &#183; 12 days ago
+              </p>
+            </div>
+    
+    
+          </div>
+        </div>
+      </section>
+    </main>
+    
+
+
+
+
+
+
+  
+
+  
+</body>
+
+</html>
